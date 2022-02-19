@@ -1,0 +1,18 @@
+{
+  "name": "docapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build assets/css/style.css -o assets/css/mainstyle.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "daisyui": "^1.25.4"
+  }
+}
